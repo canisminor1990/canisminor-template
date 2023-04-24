@@ -8,23 +8,25 @@
   },
   "author": "canisminor1990 <i@canisminor.cc>",
   "scripts": {
-    "dev": "umi dev",
     "build": "umi build",
+    "dev": "umi dev",
     "postinstall": "umi setup",
+    "lint": "eslint \"{src,javascript}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "prepare": "husky install",
+    "prettier": "prettier -c --write \"**/**\"",
+    "release": "semantic-release",
     "setup": "umi setup",
     "start": "npm run dev",
     "stylelint": "stylelint \"src/**/*.{less,css}\" --fix",
     "test": "npm run lint",
-    "type-check": "tsc -p tsconfig-check.json",
-    "release": "semantic-release",
-    "lint": "eslint \"{src,javascript}/**/*.{js,jsx,ts,tsx}\" --fix"
+    "type-check": "tsc -p tsconfig-check.json"
   },
   "lint-staged": {
     "*.{css,less}": [
       "stylelint --fix",
       "prettier --write"
     ],
-    "*.json": [
+    "*.{md,json}": [
       "prettier --write --no-error-on-unmatched-pattern"
     ],
     "*.{js,jsx}": [
@@ -37,10 +39,10 @@
     ]
   },
   "dependencies": {
-    "umi": "^4",
+    "ahooks": "^3",
     "antd": "^5",
     "antd-style": "^3",
-    "ahooks": "^3"
+    "umi": "^4"
   },
   "devDependencies": {
     "@ant-design/icons": "^5",
@@ -48,8 +50,9 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/styled-components": "^5",
-    "typescript": "^5",
     "@umijs/lint": "^4",
+    "commitlint": "^17",
+    "commitlint-config-gitmoji": "^2",
     "eslint": "^8",
     "eslint-import-resolver-alias": "^1",
     "eslint-import-resolver-typescript": "^3",
@@ -70,6 +73,7 @@
     "stylelint-config-recommended": "^12",
     "stylelint-less": "^1",
     "stylelint-order": "^6",
+    "typescript": "^5",
     "zustand": "^4"
   }
 }
