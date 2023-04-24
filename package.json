@@ -53,6 +53,7 @@
     "@types/react-dom": "^18",
     "@types/styled-components": "^5",
     "@umijs/lint": "^4",
+    "babel-plugin-styled-components": "^2.1.1",
     "commitlint": "^17",
     "commitlint-config-gitmoji": "^2",
     "eslint": "^8",
