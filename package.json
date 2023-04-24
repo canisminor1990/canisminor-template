@@ -1,0 +1,75 @@
+{
+  "name": "canisminor-template",
+  "version": "0.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canisminor1990/sd-webui-kitchen-theme.git"
+  },
+  "author": "canisminor1990 <i@canisminor.cc>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev",
+    "stylelint": "stylelint \"src/**/*.{less,css}\" --fix",
+    "test": "npm run lint",
+    "type-check": "tsc -p tsconfig-check.json",
+    "release": "semantic-release",
+    "lint": "eslint \"{src,javascript}/**/*.{js,jsx,ts,tsx}\" --fix"
+  },
+  "lint-staged": {
+    "*.{css,less}": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+    "umi": "^4",
+    "antd": "^5",
+    "antd-style": "^3",
+    "ahooks": "^3"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^5",
+    "@commitlint/cli": "^17",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/styled-components": "^5",
+    "typescript": "^5",
+    "@umijs/lint": "^4",
+    "eslint": "^8",
+    "eslint-import-resolver-alias": "^1",
+    "eslint-import-resolver-typescript": "^3",
+    "husky": "^8",
+    "lint-staged": "^13",
+    "polished": "^4",
+    "postcss-less": "^6",
+    "prettier": "^2",
+    "prettier-plugin-organize-imports": "^3",
+    "prettier-plugin-packagejson": "^2",
+    "react": "^18",
+    "react-dom": "^18",
+    "semantic-release": "^21",
+    "semantic-release-config-gitmoji": "^1",
+    "styled-components": "^5",
+    "stylelint": "^15",
+    "stylelint-config-prettier": "^9",
+    "stylelint-config-recommended": "^12",
+    "stylelint-less": "^1",
+    "stylelint-order": "^6",
+    "zustand": "^4"
+  }
+}
