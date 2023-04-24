@@ -22,7 +22,7 @@ yarn-error.log
 .idea
 .husky
 .npmrc
-.env
+.env.local
 .env.local
 style.css
 javascript/index.js
