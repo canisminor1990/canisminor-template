@@ -12,11 +12,13 @@ import { ThemeList, themeIcon } from './style'
  *********************** Style *************************
  ******************************************************/
 const View = styled.div`
-  height: 46px;
-  padding: 16px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  height: 46px;
+  padding: 16px 24px;
+
   background: ${({ theme }) => theme.colorBgContainer};
   border-bottom: 1px solid ${({ theme }) => theme.colorBorderSecondary};
 `

@@ -12,19 +12,23 @@ import GlobalStyle from './GlobalStyle'
  ******************************************************/
 
 const View = styled.div`
+  position: relative;
+
   display: flex;
   flex-direction: column;
-  height: 100vh;
+
   width: 100vw;
-  position: relative;
+  height: 100vh;
 `
 
 const Content = styled.div`
-  width: 100vw;
-  flex: 1;
+  position: relative;
+
   overflow-x: hidden;
   overflow-y: auto;
-  position: relative;
+  flex: 1;
+
+  width: 100vw;
 `
 
 /******************************************************

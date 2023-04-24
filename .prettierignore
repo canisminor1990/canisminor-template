@@ -23,6 +23,3 @@ yarn-error.log
 .husky
 .npmrc
 .env.local
-.env.local
-style.css
-javascript/index.js
