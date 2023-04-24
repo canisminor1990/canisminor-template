@@ -21,6 +21,25 @@
 
 </div>
 
+<br/>
+
+## ⌨️ Local Development
+
+You can use Gitpod for online development:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/canisminor1990/canisminor-template)
+
+Or clone it for local development:
+
+```bash
+$ git clone https://github.com/canisminor1990/canisminor-template.git
+$ cd canisminor-template
+$ npm install
+$ npm start
+```
+
+<br/>
+
 <!-- SHIELD LINK GROUP -->
 
 <!-- release -->
