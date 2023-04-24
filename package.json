@@ -17,7 +17,7 @@
     "release": "semantic-release",
     "setup": "umi setup",
     "start": "npm run dev",
-    "stylelint": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
+    "stylelint": "stylelint \"src/**/*.{css,less,js,jsx,ts,tsx}\" --fix",
     "test": "npm run lint",
     "type-check": "tsc -p tsconfig-check.json"
   },
