@@ -41,6 +41,12 @@ $ npm start
 
 <br/>
 
+## 🤝 Contributing
+
+<!-- CONTRIBUTION GROUP -->
+
+<!-- CONTRIBUTION END -->
+
 <!-- SHIELD LINK GROUP -->
 
 <!-- release -->
