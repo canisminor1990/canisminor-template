@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17",
-    "@types/node": "^18",
+    "@types/node": "^20",
     "commitlint": "^17",
     "commitlint-config-gitmoji": "^2",
     "eslint": "^8",
