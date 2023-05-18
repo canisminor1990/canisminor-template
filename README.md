@@ -1,13 +1,15 @@
-<p align="center">
-  <img width="160" src="https://avatars.githubusercontent.com/u/17870709?v=4">
-</p>
-<h1 align="center">CanisMinor Template</h1>
+<a name="readme-top"></a>
 
 <div align="center">
-  This is a template repo for canisminor1990
-<br/>
-<br/>
+  
+<img width="160" src="https://avatars.githubusercontent.com/u/17870709?v=4">
 
+<h1>CanisMinor Template</h1>
+
+This is a template repo for canisminor1990
+  
+[Changelog][changelog-url] · [Report Bug][issues-url] · [Request Feature][issues-url]
+  
 <!-- SHIELD GROUP -->
 
 [![release][release-shield]][release-url]
@@ -19,16 +21,16 @@
 [![forks][forks-shield]][forks-url]
 [![stargazers][stargazers-shield]][stargazers-url]
 [![issues][issues-shield]][issues-url]
+  
+![](https://github.com/othneildrew/Best-README-Template/raw/master/images/screenshot.png)
 
 </div>
-
-<br/>
 
 ## ⌨️ Local Development
 
 You can use Gitpod for online development:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/canisminor1990/canisminor-template)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)][gitpod-url]
 
 Or clone it for local development:
 
@@ -39,7 +41,12 @@ $ npm install
 $ npm start
 ```
 
-<br/>
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
 
 ## 🤝 Contributing
 
@@ -59,7 +66,30 @@ $ npm start
 
 <!-- CONTRIBUTION END -->
 
+<div align="right">
+
+[![][back-to-top]](#readme-top)
+
+</div>
+
+---
+#### 📝 License
+
+Copyright © 2023 [CanisMinor][profile-url]. <br />
+This project is [MIT][license-url] licensed. 
+
+
+<!-- LINK GROUP -->
+
+[profile-url]: https://github.com/canisminor1990
+[license-url]: https://github.com/canisminor1990/canisminor-template/blob/main/LICENSE
+[changelog-url]: https://github.com/canisminor1990/canisminor-template/CHANGELOG.md
+[issues-url]: https://github.com/canisminor1990/canisminor-template/issues/new/choose
+[gitpod-url]: https://gitpod.io/#https://github.com/canisminor1990/canisminor-template
+
 <!-- SHIELD LINK GROUP -->
+
+[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
 
 <!-- release -->
 
