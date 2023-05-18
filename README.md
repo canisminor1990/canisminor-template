@@ -8,7 +8,7 @@
 
 This is a template repo for canisminor1990
   
-[Changelog][changelog-url] · [Report Bug][issues-url] · [Request Feature][issues-url]
+[Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
   
 <!-- SHIELD GROUP -->
 
@@ -76,14 +76,12 @@ $ npm start
 #### 📝 License
 
 Copyright © 2023 [CanisMinor][profile-url]. <br />
-This project is [MIT][license-url] licensed. 
+This project is [MIT](./LICENSE) licensed. 
 
 
 <!-- LINK GROUP -->
 
 [profile-url]: https://github.com/canisminor1990
-[license-url]: https://github.com/canisminor1990/canisminor-template/blob/main/LICENSE
-[changelog-url]: https://github.com/canisminor1990/canisminor-template/CHANGELOG.md
 [issues-url]: https://github.com/canisminor1990/canisminor-template/issues/new/choose
 [gitpod-url]: https://gitpod.io/#https://github.com/canisminor1990/canisminor-template
 
