@@ -2,6 +2,10 @@
   "name": "canisminor-template",
   "version": "1.0.1",
   "private": true,
+  "homepage": "https://github.com/canisminor-template",
+  "bugs": {
+    "url": "https://github.com/canisminor-template/issues/new"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/canisminor1990/canisminor-template.git"
