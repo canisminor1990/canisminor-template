@@ -1,5 +1,11 @@
 # Changelog
 
+# [1.1.0](https://github.com/canisminor1990/canisminor-template/compare/v1.0.2...v1.1.0) (2023-05-30)
+
+### ✨ Features
+
+- update ([6fdcc8c](https://github.com/canisminor1990/canisminor-template/commit/6fdcc8c))
+
 ## [1.0.2](https://github.com/canisminor1990/canisminor-template/compare/v1.0.1...v1.0.2) (2023-05-30)
 
 ### 💄 Styles
