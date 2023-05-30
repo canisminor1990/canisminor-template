@@ -7,9 +7,9 @@
 <h1>CanisMinor Template</h1>
 
 This is a template repo for canisminor1990
-  
+
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
-  
+
 <!-- SHIELD GROUP -->
 
 [![release][release-shield]][release-url]
@@ -21,7 +21,7 @@ This is a template repo for canisminor1990
 [![forks][forks-shield]][forks-url]
 [![stargazers][stargazers-shield]][stargazers-url]
 [![issues][issues-shield]][issues-url]
-  
+
 ![](https://github.com/othneildrew/Best-README-Template/raw/master/images/screenshot.png)
 
 </div>
@@ -46,7 +46,6 @@ $ npm start
 [![][back-to-top]](#readme-top)
 
 </div>
-
 
 ## 🤝 Contributing
 
@@ -73,16 +72,15 @@ $ npm start
 </div>
 
 ---
+
 #### 📝 License
 
 Copyright © 2023 [CanisMinor][profile-url]. <br />
-This project is [MIT](./LICENSE) licensed. 
-
+This project is [MIT](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
 
 [profile-url]: https://github.com/canisminor1990
-[issues-url]: https://github.com/canisminor1990/canisminor-template/issues/new/choose
 [gitpod-url]: https://gitpod.io/#https://github.com/canisminor1990/canisminor-template
 
 <!-- SHIELD LINK GROUP -->
@@ -127,4 +125,4 @@ This project is [MIT](./LICENSE) licensed.
 <!-- issues -->
 
 [issues-shield]: https://img.shields.io/github/issues/canisminor1990/canisminor-template.svg?style=flat
-[issues-url]: https://img.shields.io/github/issues/canisminor1990/canisminor-template.svg?style=flat
+[issues-url]: https://github.com/canisminor1990/canisminor-template/issues/new/choose
