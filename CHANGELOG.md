@@ -1,5 +1,11 @@
 # Changelog
 
+# [1.2.0](https://github.com/canisminor1990/canisminor-template/compare/v1.1.0...v1.2.0) (2023-05-30)
+
+### ✨ Features
+
+- Add linting for Markdown files ([538b0e6](https://github.com/canisminor1990/canisminor-template/commit/538b0e6))
+
 # [1.1.0](https://github.com/canisminor1990/canisminor-template/compare/v1.0.2...v1.1.0) (2023-05-30)
 
 ### ✨ Features
