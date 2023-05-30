@@ -1,6 +1,7 @@
-import React from 'react'
-const App: React.FC = () => {
-  return <div>CanisMinor Template</div>
-}
+import React from 'react';
 
-export default App
+const App: React.FC = () => {
+  return <div>CanisMinor Template</div>;
+};
+
+export default App;

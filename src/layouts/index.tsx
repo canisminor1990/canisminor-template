@@ -1,11 +1,14 @@
-import { Header } from '@/components'
-import { useAppStore } from '@/store'
-import { ThemeProvider, setupStyled } from 'antd-style'
-import 'antd/dist/reset.css'
-import styled, { ThemeContext } from 'styled-components'
-import { Outlet } from 'umi'
-import { shallow } from 'zustand/shallow'
-import GlobalStyle from './GlobalStyle'
+import 'antd/dist/reset.css';
+
+import { setupStyled, ThemeProvider } from 'antd-style';
+import styled, { ThemeContext } from 'styled-components';
+import { Outlet } from 'umi';
+import { shallow } from 'zustand/shallow';
+
+import { Header } from '@/components';
+import { useAppStore } from '@/store';
+
+import GlobalStyle from './GlobalStyle';
 
 /******************************************************
  *********************** Style *************************
@@ -19,7 +22,7 @@ const View = styled.div`
 
   width: 100vw;
   height: 100vh;
-`
+`;
 
 const Content = styled.div`
   position: relative;
@@ -29,15 +32,15 @@ const Content = styled.div`
   flex: 1;
 
   width: 100vw;
-`
+`;
 
 /******************************************************
  ************************* Dom *************************
  ******************************************************/
 
 const Layout: React.FC = () => {
-  const [themeMode] = useAppStore((st) => [st.themeMode], shallow)
-  setupStyled({ ThemeContext })
+  const [themeMode] = useAppStore((st) => [st.themeMode], shallow);
+  setupStyled({ ThemeContext });
   return (
     <ThemeProvider themeMode={themeMode}>
       <GlobalStyle />
@@ -48,7 +51,7 @@ const Layout: React.FC = () => {
         </Content>
       </View>
     </ThemeProvider>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
