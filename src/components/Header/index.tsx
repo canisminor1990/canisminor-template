@@ -8,7 +8,7 @@ import PackageJson from '@/../package.json';
 import { useAppStore } from '@/store';
 
 import Logo from './Logo';
-import { themeIcon, ThemeList } from './style';
+import { ThemeList, themeIcon } from './style';
 
 /******************************************************
  *********************** Style *************************

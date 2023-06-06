@@ -1,6 +1,5 @@
+import { ThemeProvider, setupStyled } from 'antd-style';
 import 'antd/dist/reset.css';
-
-import { setupStyled, ThemeProvider } from 'antd-style';
 import styled, { ThemeContext } from 'styled-components';
 import { Outlet } from 'umi';
 import { shallow } from 'zustand/shallow';
