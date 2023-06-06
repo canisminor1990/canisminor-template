@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'antd-style'
+import { createGlobalStyle } from 'antd-style';
 
 const GlobalStyle = createGlobalStyle`body {
   font-family: ${({ theme }) => theme.fontFamily};
@@ -6,6 +6,6 @@ const GlobalStyle = createGlobalStyle`body {
   color: ${({ theme }) => theme.colorTextBase};
   background: ${({ theme }) => theme.colorBgBase};
 }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;

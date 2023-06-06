@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
+
 <img width="160" src="https://avatars.githubusercontent.com/u/17870709?v=4">
 
 <h1>CanisMinor Template</h1>
@@ -15,8 +15,7 @@ This is a template repo for canisminor1990
 [![release][release-shield]][release-url]
 [![releaseDate][release-date-shield]][release-date-url]
 [![ciTest][ci-test-shield]][ci-test-url]
-[![ciRelease][ci-release-shield]][ci-release-url]
-<br/>
+[![ciRelease][ci-release-shield]][ci-release-url] <br/>
 [![contributors][contributors-shield]][contributors-url]
 [![forks][forks-shield]][forks-url]
 [![stargazers][stargazers-shield]][stargazers-url]
@@ -25,6 +24,18 @@ This is a template repo for canisminor1990
 ![](https://github.com/othneildrew/Best-README-Template/raw/master/images/screenshot.png)
 
 </div>
+
+<details>
+<summary><kbd>Table of contents</kbd></summary>
+
+#### TOC
+
+- [⌨️ Local Development](#️-local-development)
+- [🤝 Contributing](#-contributing)
+
+####
+
+</details>
 
 ## ⌨️ Local Development
 

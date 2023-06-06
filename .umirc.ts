@@ -1,4 +1,4 @@
-import { defineConfig } from 'umi'
+import { defineConfig } from 'umi';
 
 export default defineConfig({
   title: 'Template - CanisMinor',
@@ -19,4 +19,4 @@ export default defineConfig({
       },
     ],
   ],
-})
+});
