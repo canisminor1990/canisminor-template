@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.1](https://github.com/canisminor1990/canisminor-template/compare/v1.2.0...v1.2.1) (2023-06-08)
+
+### 🎫 Chores
+
+- update lint config ([a2e28d6](https://github.com/canisminor1990/canisminor-template/commit/a2e28d6))
+
+### 💄 Styles
+
+- Update ignore files for canisminor1990 ([0c0efd3](https://github.com/canisminor1990/canisminor-template/commit/0c0efd3))
+
+### 📝 Documentation
+
+- add toc ([89ebfa0](https://github.com/canisminor1990/canisminor-template/commit/89ebfa0))
+
 # [1.2.0](https://github.com/canisminor1990/canisminor-template/compare/v1.1.0...v1.2.0) (2023-05-30)
 
 ### ✨ Features
