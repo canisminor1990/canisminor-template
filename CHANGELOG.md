@@ -2,42 +2,152 @@
 
 # Changelog
 
-## [1.2.1](https://github.com/canisminor1990/canisminor-template/compare/v1.2.0...v1.2.1) (2023-06-08)
+### Version 1.2.1
 
-### 🎫 Chores
+<sup>Released on **2023-06-08**</sup>
 
-- update lint config ([a2e28d6](https://github.com/canisminor1990/canisminor-template/commit/a2e28d6))
+#### 💄 Styles
 
-### 💄 Styles
+- **misc**: Update ignore files for canisminor1990.
 
-- Update ignore files for canisminor1990 ([0c0efd3](https://github.com/canisminor1990/canisminor-template/commit/0c0efd3))
+<br/>
 
-### 📝 Documentation
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
 
-- add toc ([89ebfa0](https://github.com/canisminor1990/canisminor-template/commit/89ebfa0))
+#### Styles
 
-# [1.2.0](https://github.com/canisminor1990/canisminor-template/compare/v1.1.0...v1.2.0) (2023-05-30)
+- **misc**: Update ignore files for canisminor1990 ([0c0efd3](https://github.com/canisminor1990/canisminor-template/commit/0c0efd3))
 
-### ✨ Features
+</details>
 
-- Add linting for Markdown files ([538b0e6](https://github.com/canisminor1990/canisminor-template/commit/538b0e6))
+<div align="right">
 
-# [1.1.0](https://github.com/canisminor1990/canisminor-template/compare/v1.0.2...v1.1.0) (2023-05-30)
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
 
-### ✨ Features
+</div>
 
-- update ([6fdcc8c](https://github.com/canisminor1990/canisminor-template/commit/6fdcc8c))
+## Version 1.2.0
 
-## [1.0.2](https://github.com/canisminor1990/canisminor-template/compare/v1.0.1...v1.0.2) (2023-05-30)
+<sup>Released on **2023-05-30**</sup>
 
-### 💄 Styles
+#### ✨ Features
 
-- Update ESLint configuration and add Prettier configuration ([5ac1ae9](https://github.com/canisminor1990/canisminor-template/commit/5ac1ae9))
+- **misc**: Add linting for Markdown files.
 
-## [1.0.1](https://github.com/canisminor1990/canisminor-template/compare/v1.0.0...v1.0.1) (2023-04-24)
+<br/>
 
-# 1.0.0 (2023-04-24)
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
 
-### ✨ Features
+#### What's improved
 
-- update demo ([bbb6ce5](https://github.com/canisminor1990/canisminor-template/commit/bbb6ce5))
+- **misc**: Add linting for Markdown files ([538b0e6](https://github.com/canisminor1990/canisminor-template/commit/538b0e6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## Version 1.1.0
+
+<sup>Released on **2023-05-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Update.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update ([6fdcc8c](https://github.com/canisminor1990/canisminor-template/commit/6fdcc8c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### Version 1.0.2
+
+<sup>Released on **2023-05-30**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update ESLint configuration and add Prettier configuration.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update ESLint configuration and add Prettier configuration ([5ac1ae9](https://github.com/canisminor1990/canisminor-template/commit/5ac1ae9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### Version 1.0.1
+
+<sup>Released on **2023-04-24**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update stylelint.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update stylelint ([3c9655e](https://github.com/canisminor1990/canisminor-template/commit/3c9655e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## Version 1.0.0
+
+<sup>Released on **2023-04-24**</sup>
+
+#### ✨ Features
+
+- **misc**: Update demo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Update demo ([bbb6ce5](https://github.com/canisminor1990/canisminor-template/commit/bbb6ce5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
