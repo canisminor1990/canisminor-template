@@ -13,13 +13,6 @@ export const themeIcon = {
       </svg>
     </span>
   ),
-  light: (
-    <span className="anticon anticon-github" role="img">
-      <svg fill="currentColor" height="1em" viewBox="0 0 16 16" width="1em">
-        <path d="M8 13a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1ZM8 3a1 1 0 0 1-1-1V1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm7 4a1 1 0 1 1 0 2h-1a1 1 0 1 1 0-2h1ZM3 8a1 1 0 0 1-1 1H1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm9.95 3.536.707.707a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 1.414-1.414Zm-9.9-7.072-.707-.707a1 1 0 0 1 1.414-1.414l.707.707A1 1 0 0 1 3.05 4.464Zm9.9 0a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 1.414l-.707.707Zm-9.9 7.072a1 1 0 0 1 1.414 1.414l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707ZM8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0 6.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"></path>
-      </svg>
-    </span>
-  ),
   dark: (
     <span className="anticon anticon-github" role="img">
       <svg fill="currentColor" height="1em" viewBox="0 0 16 16" width="1em">
@@ -27,10 +20,17 @@ export const themeIcon = {
       </svg>
     </span>
   ),
+  light: (
+    <span className="anticon anticon-github" role="img">
+      <svg fill="currentColor" height="1em" viewBox="0 0 16 16" width="1em">
+        <path d="M8 13a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1ZM8 3a1 1 0 0 1-1-1V1a1 1 0 1 1 2 0v1a1 1 0 0 1-1 1Zm7 4a1 1 0 1 1 0 2h-1a1 1 0 1 1 0-2h1ZM3 8a1 1 0 0 1-1 1H1a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1Zm9.95 3.536.707.707a1 1 0 0 1-1.414 1.414l-.707-.707a1 1 0 0 1 1.414-1.414Zm-9.9-7.072-.707-.707a1 1 0 0 1 1.414-1.414l.707.707A1 1 0 0 1 3.05 4.464Zm9.9 0a1 1 0 0 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 1.414l-.707.707Zm-9.9 7.072a1 1 0 0 1 1.414 1.414l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707ZM8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm0 6.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z"></path>
+      </svg>
+    </span>
+  ),
 };
 
 export const ThemeList = ({ onSetThemeMode }: any): MenuProps['items'] => [
-  { icon: themeIcon.auto, label: 'Auto', key: 'auto', onClick: () => onSetThemeMode('auto') },
-  { icon: themeIcon.light, label: 'Light', key: 'light', onClick: () => onSetThemeMode('light') },
-  { icon: themeIcon.dark, label: 'Dark', key: 'dark', onClick: () => onSetThemeMode('dark') },
+  { icon: themeIcon.auto, key: 'auto', label: 'Auto', onClick: () => onSetThemeMode('auto') },
+  { icon: themeIcon.light, key: 'light', label: 'Light', onClick: () => onSetThemeMode('light') },
+  { icon: themeIcon.dark, key: 'dark', label: 'Dark', onClick: () => onSetThemeMode('dark') },
 ];

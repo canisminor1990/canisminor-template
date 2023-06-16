@@ -1,7 +1,7 @@
-import React from 'react';
+import { memo } from 'react';
 
-const App: React.FC = () => {
+const App = memo(() => {
   return <div>CanisMinor Template</div>;
-};
+});
 
 export default App;

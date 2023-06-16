@@ -1,5 +1,6 @@
 import { ThemeProvider, setupStyled } from 'antd-style';
 import 'antd/dist/reset.css';
+import { memo } from 'react';
 import styled, { ThemeContext } from 'styled-components';
 import { Outlet } from 'umi';
 import { shallow } from 'zustand/shallow';
@@ -37,7 +38,7 @@ const Content = styled.div`
  ************************* Dom *************************
  ******************************************************/
 
-const Layout: React.FC = () => {
+const Layout = memo(() => {
   const [themeMode] = useAppStore((st) => [st.themeMode], shallow);
   setupStyled({ ThemeContext });
   return (
@@ -51,6 +52,6 @@ const Layout: React.FC = () => {
       </View>
     </ThemeProvider>
   );
-};
+});
 
 export default Layout;

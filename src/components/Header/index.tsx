@@ -1,6 +1,6 @@
 import { GithubOutlined } from '@ant-design/icons';
 import { Button, Dropdown, Space } from 'antd';
-import React, { ReactNode } from 'react';
+import { type ReactNode, memo } from 'react';
 import styled from 'styled-components';
 import { shallow } from 'zustand/shallow';
 
@@ -33,7 +33,7 @@ interface HeaderProps {
   children?: ReactNode;
 }
 
-const Header: React.FC<HeaderProps> = ({ children }) => {
+const Header = memo<HeaderProps>(({ children }) => {
   const [themeMode, onSetThemeMode] = useAppStore(
     (st) => [st.themeMode, st.onSetThemeMode],
     shallow,
@@ -59,6 +59,6 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
       </Space>
     </View>
   );
-};
+});
 
-export default React.memo(Header);
+export default Header;
