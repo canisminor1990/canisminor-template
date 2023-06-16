@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.2.2](https://github.com/canisminor1990/canisminor-template/compare/v1.2.1...v1.2.2)
+
+<sup>Released on **2023-06-16**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Better format.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Better format ([5a2bc18](https://github.com/canisminor1990/canisminor-template/commit/5a2bc18))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### Version 1.2.1
 
 <sup>Released on **2023-06-08**</sup>
