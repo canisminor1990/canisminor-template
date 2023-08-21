@@ -75,7 +75,7 @@
     "commitlint": "^17",
     "eslint": "^8",
     "husky": "^8",
-    "lint-staged": "^13",
+    "lint-staged": "^14",
     "prettier": "^2",
     "remark": "^14",
     "remark-cli": "^11",
